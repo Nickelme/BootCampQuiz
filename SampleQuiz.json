@@ -1,0 +1,51 @@
+{
+	"quizName" : "Web APIs Quiz",
+	"quizTime" : 60000,
+	"quizQuestions": [
+		{
+			"question": "Yo this is a random question",
+			"answers": [
+				{
+					"text" : "This is wrong",
+					"correct" : false
+				},
+				{
+					"text": "This is also wrong",
+					"correct": false
+				},
+				{
+					"text": "Nope still wrong",
+					"correct": false
+				},
+				{
+					"text": "This is the right one!",
+					"correct": true
+				}
+
+			]
+		},
+		{
+			"question": "This is a second random question",
+			"answers": [
+				{
+					"text" : "This is wrong 2 electric boogaloo",
+					"correct" : false
+				},
+				{
+					"text": "This is also wrong still",
+					"correct": false
+				},
+				{
+					"text": "Nope still wrong this time as well",
+					"correct": false
+				},
+				{
+					"text": "Real smooth last option is correct twice",
+					"correct": true
+				}
+
+			]
+		}
+	]
+
+}

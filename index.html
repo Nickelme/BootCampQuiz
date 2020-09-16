@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="page-header row">
+			<div class="col-sm-3 text-left align-self-center">
+				<h5 id="txtTimeLeft">Time Left: 000</h5>
+			</div>
+			<div class="col-sm-6 text-center">
+				<h1 id="txtQuizName">Loading Quiz</h1>
+			</div>
+			<div class="col-sm-3 text-right align-self-center">
+				<button id="btnShowHighScore" class="btn btn-primary">View Highscores</button>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-header text-center">
+				<h2 id="txtQuestion" class="card-title">Start The Quiz</h2>
+			</div>
+			<div id="quizBody" class="card-body" style="display:none">
+				<div id="rdbAns1" class="form-check">
+					<input id="inAns0" type="radio" name="ansradio">
+					<label id="txtAns0" class="form-check-label" for="inAns0">
+						Ans0
+					</label>
+				</div>
+				<div id="rdbAns2" class="form-check">
+					<input id="inAns1" type="radio" name="ansradio">
+					<label id="txtAns1" class="form-check-label" for="inAns1">
+						Ans1
+					</label>
+				</div>
+				<div id="rdbAns3" class="form-check">
+					<input id="inAns2" type="radio" name="ansradio">
+					<label id="txtAns2" class="form-check-label" for="inAns2">
+						Ans2
+					</label>
+				</div>
+				<div id="rdbAns4" class="form-check">
+					<input id="inAns3" type="radio" name="ansradio">
+					<label id="txtAns3" class="form-check-label" for="inAns3">
+						Ans3
+					</label>
+				</div>
+			</div>
+			<div id="startBody" class="card-body text-center align-self-center">
+				<button id="btnStart" class="btn btn-primary">Start</button>
+			</div>
+			<div id="finishBody" class="card-body text-center align-self-center" style="display:none">
+				<div class="row">
+					<h5 id="txtYourScore" class="col-sm-12">Your Score was 0</h5>
+				</div>
+				<div class="row">
+					<input id="inHighscoreName" class="form-control col-sm-8" type="text" placeholder="Name">
+					<button id="btnSubmitHighscore" type="sumbit" class="btn btn-primary col-sm-4">Submit</button>
+				</div>
+			</div>
+			<div id="highscoreBody" class="card-body text-center align-self-center" style="display:none">
+				<ol id="lstScoreList">
+				</ol>
+			</div>
+			<div class="card-footer row" style="margin: 0;">
+				<div class="col-sm-6 text-left align-self-center">
+					<span id="txtScore">Score:</span>
+				</div>
+				<div class="col-sm-6 text-right align-self-center">
+					<button id="btnNext" class="btn btn-success" disabled>Next</button>
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+	<script src="RunQuiz.js"></script>
+</body>
+
+</html>
