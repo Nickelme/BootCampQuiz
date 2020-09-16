@@ -4,3 +4,5 @@ The base is extremely flexable with only needing to modify SampleQuiz.json to ad
 
 
 ![Screenshot](./screenshot.png "SCREENSHOT")
+
+The code is hot garabage but works. Needs to be cleaned up BAD!!!

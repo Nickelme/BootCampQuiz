@@ -3,49 +3,146 @@
 	"quizTime" : 60000,
 	"quizQuestions": [
 		{
-			"question": "Yo this is a random question",
+			"question": "Local Storage is kept: ",
 			"answers": [
 				{
-					"text" : "This is wrong",
+					"text" : "In the cloud",
 					"correct" : false
 				},
 				{
-					"text": "This is also wrong",
+					"text": "Only in that specific tab",
 					"correct": false
 				},
 				{
-					"text": "Nope still wrong",
-					"correct": false
-				},
-				{
-					"text": "This is the right one!",
+					"text": "On the local computer but specific to the current website ",
 					"correct": true
+				},
+				{
+					"text": "Alcatraz",
+					"correct": false
 				}
 
 			]
 		},
 		{
-			"question": "This is a second random question",
+			"question": "firstElementChild gets: ",
 			"answers": [
 				{
-					"text" : "This is wrong 2 electric boogaloo",
+					"text" : "Your first born child",
 					"correct" : false
 				},
 				{
-					"text": "This is also wrong still",
+					"text": "The first child of an element",
+					"correct": true
+				},
+				{
+					"text": "The element after",
 					"correct": false
 				},
 				{
-					"text": "Nope still wrong this time as well",
+					"text": "A random element on the page",
+					"correct": false
+				}
+
+			]
+		},
+
+		{
+			"question": "You can create an element with: ",
+			"answers": [
+				{
+					"text" : "document.createElement",
+					"correct" : true
+				},
+				{
+					"text": "Unicorn tears",
 					"correct": false
 				},
 				{
-					"text": "Real smooth last option is correct twice",
+					"text": "new element();",
+					"correct": false
+				},
+				{
+					"text": "Element.new();",
+					"correct": false
+				}
+
+			]
+		},
+		
+		
+		{
+			"question": "If you want to know when an element is clicked ",
+			"answers": [
+				{
+					"text" : "<element>.click(){};",
+					"correct" : false
+				},
+				{
+					"text": "<element>.addEventListener(\"click\", <function>);",
+					"correct": true
+				},
+				{
+					"text": "function <element>_click(){}",
+					"correct": false
+				},
+				{
+					"text": "<element>.addEventListener(\"change\", <function>);",
+					"correct": false
+				}
+
+			]
+		},
+
+		
+		{
+			"question": "You can find an element on the page with: ",
+			"answers": [
+				{
+					"text" : "document.find();",
+					"correct" : false
+				},
+				{
+					"text": "document.locate();",
+					"correct": false
+				},
+				{
+					"text": "A Map",
+					"correct": false
+				},
+				{
+					"text": "document.querySelector();",
 					"correct": true
 				}
 
 			]
+		},
+
+		
+		{
+			"question": "If you want to have something happen at regular intervals you can use:  ",
+			"answers": [
+				{
+					"text" : "A Stopwatch",
+					"correct" : false
+				},
+				{
+					"text": "Timer.OnIntervals();",
+					"correct": false
+				},
+				{
+					"text": "setInterval();",
+					"correct": true
+				},
+				{
+					"text": "setTimeout();",
+					"correct": false
+				}
+
+			]
 		}
+		
+		
 	]
 
 }
